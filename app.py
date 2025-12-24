@@ -146,7 +146,7 @@ def voice_predict(path):
 
     X = np.array([feats[k] for k in order]).reshape(1, -1)
     pred = audio_model.predict(X)[0]
-    prob = audio_model.predict_proba(X)[0][1]
+    prob = round(audio_model.predict_proba(X)[0][1], 2)
 
     label = "parkinson" if pred == 1 else "healthy"
     return label, prob, feats
