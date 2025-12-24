@@ -1,8 +1,3 @@
-Below is a **comprehensive, professional README.md** tailored exactly to **your multimodal Parkinson’s detection project** (handwriting + MRI + voice, SVM/CNN, Git LFS-aware).
-You can **copy–paste this directly into `README.md`**.
-
----
-
 # 🧠 Multimodal Parkinson’s Disease Detection System
 
 A machine learning–based **multimodal screening application** that analyzes **handwriting patterns, MRI brain scans, and voice recordings** to estimate the likelihood of Parkinson’s disease. The system combines classical machine learning and deep learning techniques to provide a **probabilistic, non-invasive risk assessment** intended for clinical decision support.
