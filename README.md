@@ -190,4 +190,3 @@ This project is intended for **academic and research purposes only**.
 * Write a **research-paper-style abstract**
 * Convert it into a **Flask app README**
 
-Just say 👍
