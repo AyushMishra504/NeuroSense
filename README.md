@@ -1,8 +1,3 @@
-Below is a **comprehensive, professional README.md** tailored exactly to **your multimodal Parkinson’s detection project** (handwriting + MRI + voice, SVM/CNN, Git LFS-aware).
-You can **copy–paste this directly into `README.md`**.
-
----
-
 # 🧠 Multimodal Parkinson’s Disease Detection System
 
 A machine learning–based **multimodal screening application** that analyzes **handwriting patterns, MRI brain scans, and voice recordings** to estimate the likelihood of Parkinson’s disease. The system combines classical machine learning and deep learning techniques to provide a **probabilistic, non-invasive risk assessment** intended for clinical decision support.
@@ -96,8 +91,8 @@ project/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/AyushMishra504/NeuroSense.git
+cd NeuroSense
 ```
 
 ### 2. Install Dependencies
@@ -105,14 +100,6 @@ cd <repo-name>
 ```bash
 pip install -r requirements.txt
 ```
-
-### 3. (Optional) Enable Git LFS
-
-```bash
-git lfs install
-git lfs pull
-```
-
 ---
 
 ## ▶️ Running the Application
@@ -130,15 +117,12 @@ Upload:
 The system outputs:
 
 * Individual modality predictions
-* Final Parkinson’s likelihood score
-
 ---
 
 ## 📊 Model Outputs
 
 * Probabilistic predictions (0–100%)
 * Individual modality confidence
-* Final aggregated assessment
 
 Example:
 
@@ -148,7 +132,6 @@ Wave Likelihood: 72%
 MRI Likelihood: 75%
 Voice Likelihood: 64%
 
-Final Parkinson’s Risk: 69.75%
 ```
 
 ---
@@ -195,24 +178,15 @@ Final Parkinson’s Risk: 69.75%
 
 ---
 
-## 👤 Author
-
-**Ayush Mishra**
-Student Project – Multimodal AI for Healthcare
-
----
-
 ## 📜 License
 
 This project is intended for **academic and research purposes only**.
 
 ---
 
-If you want, I can also:
 
 * Shorten this for **GitHub landing page**
 * Add **installation badges**
 * Write a **research-paper-style abstract**
 * Convert it into a **Flask app README**
 
-Just say 👍
