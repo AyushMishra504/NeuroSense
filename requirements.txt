@@ -1,0 +1,34 @@
+# Core
+python>=3.9
+
+# Numerical & Data Handling
+numpy
+pandas
+
+# Image Processing (Handwriting & MRI)
+opencv-python
+scikit-image
+Pillow
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Deep Learning (MRI CNNs)
+tensorflow
+keras
+
+# Audio Processing (Voice Analysis)
+librosa
+soundfile
+
+# Visualization & Evaluation
+matplotlib
+seaborn
+
+# Web App (Flask)
+flask
+flask-cors
+
+# Utilities
+tqdm
